@@ -22,8 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+        Full Stack Web Developer based in Berlin, freshly graduated from an intensive Bootcamp, ready to transform ideas into reality through comprehensive web solutions and eager to continue learning in the tech field.
         </p>
       </div>
 
@@ -47,11 +46,11 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Education</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+          I studied Economy and Informatics at the University of Tirana and picked up web development. I also did a short gig in finance and auditing , learning about financial reports and audits.
+          <br/> To boost my tech skills, I went through a cool Web & App Development Bootcamp at WBS Coding School in Berlin, focusing on making websites work well on any device.
           </p>
         </div>
 
