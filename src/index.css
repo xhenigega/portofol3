@@ -26,11 +26,11 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .head-text {
-    @apply sm:text-5xl text-3xl font-bold sm:leading-snug font-pacifico;
+    @apply sm:text-5xl text-3xl font-bold sm:leading-snug font-roboto;
   }
 
   .subhead-text {
-    @apply font-bold sm:text-3xl text-xl relative font-pacifico;
+    @apply font-bold sm:text-3xl text-xl relative font-roboto;
   }
 
   .blue-gradient_text {
