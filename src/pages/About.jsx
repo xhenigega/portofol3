@@ -22,7 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        Full Stack Web Developer based in Berlin, freshly graduated from an intensive Bootcamp, ready to transform ideas into reality through comprehensive web solutions and eager to continue learning in the tech field.
+       Junior Full Stack Web Developer from Albania based in Berlin, freshly graduated from an intensive Bootcamp, ready to transform ideas into reality through comprehensive web solutions and eager to continue learning in the tech field.
         </p>
       </div>
 

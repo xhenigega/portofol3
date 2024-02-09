@@ -9,17 +9,17 @@ import mongodb from "./mongodb.svg";
 
 import nodejs from "./nodejs.svg";
 import react from "./react.svg";
-import intern from "./intern.svg"
+import intern from "./intern.svg";
 import tailwindcss from "./tailwindcss.svg";
-import programer from "./programer.svg"
+import programer from "./programer.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import car from "./car.svg";
-import estate from "./estate.svg";
-import pricewise from "./pricewise.svg";
-import snapgram from "./snapgram.svg";
-import summiz from "./summiz.svg";
-import threads from "./threads.svg";
+import cmscookbook from "./cmscookbook.png";
+import cookbook from "./cookbook.png";
+import barknbath from "./barknbath.png";
+import todolist from "./todolist.png";
+
+import pokefight from "./pokefight.png";
 import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import student from "./student.svg";
@@ -40,12 +40,12 @@ export {
   tailwindcss,
   linkedin,
   twitter,
-  car,
-  estate,
-  pricewise,
-  snapgram,
-  summiz,
-  threads,
+  cmscookbook,
+  cookbook,
+  barknbath,
+  todolist,
+ 
+  pokefight,
   arrow,
   contact,
   student,

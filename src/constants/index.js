@@ -1,8 +1,8 @@
 import {
-  car,
+  cmscookbook,
   contact,
   css,
-  estate,
+  cookbook,
   express,
   git,
   github,
@@ -13,14 +13,14 @@ import {
   mongodb,
   nodejs,
   intern,
-  pricewise,
+  barknbath,
   react,
-  snapgram,
+  todolist,
   student,
   programer,
-  summiz,
+ 
   tailwindcss,
-  threads,
+  pokefight,
 } from "../assets/icons";
 
 export const skills = [
@@ -146,51 +146,45 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: barknbath,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Dog Mobile-Spa App",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Me and Nawfal Senntisi developed a dog mobile spa app using Express.js for backend, MongoDB for database management, and Tailwind CSS for sleek styling. On the frontend, React.js brings interactivity and smooth user experience.  Let's keep innovating in the world of pet care!",
+    link: "https://barknbath.onrender.com/",
   },
   {
-    iconUrl: threads,
+    iconUrl: pokefight,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Full Stack PokeFight game",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      'Full Stack PokeFight game" is a  Pokémon battle game, offering players to choose their pokemon and fight a random one. Built with Node.js, Express.js, MongoDB, and React.js, it integrates backend and frontend technologies for a simple fight adventure.',
+    link: "https://github.com/xhenigega/Poke_Fight/tree/error/debug",
   },
   {
-    iconUrl: car,
+    iconUrl: cmscookbook,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Recipe Book",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Recipe Book: Powered by Contentful, this platform offers a  recipe management system. Seamlessly integrating with Contentful's API, it efficiently stores and delivers recipes, ensuring a smooth and dynamic user experience. From recipe creation to browsing and sharing, it provides a seamless culinary journey.",
+    link: "https://github.com/xhenigega",
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
-    description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
-  },
-  {
-    iconUrl: estate,
+    iconUrl: cookbook,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Cook Book",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "At the start of our journey in web development, we embarked on a simple  project: a Cookbook . This beginner-level project served as our introduction to web development, focusing on basic functionalities for organizing and sharing recipes. Despite its simplicity, it provided a solid starting point for our coding journey, helping us grasp essential concepts and build a strong foundation.",
+    link: "https://github.com/xhenigega",
   },
   {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    iconUrl: todolist,
+    theme: "btn-back-pink",
+    name: "To Do List",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "We also built a basic To-Do List application. This project introduced us to essential concepts such as task creation, editing, and deletion. While straightforward, it provided hands-on experience in implementing key functionalities and understanding core web development principles.",
+    link: "https://github.com/xhenigega",
   },
+ 
+  
 ];
