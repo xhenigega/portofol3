@@ -18,7 +18,7 @@ import {
   todolist,
   student,
   programer,
- 
+ bootstrap,
   tailwindcss,
   pokefight,
 } from "../assets/icons";
@@ -81,6 +81,11 @@ export const skills = [
     name: "Tailwind CSS",
     type: "Frontend",
   },
+  {
+    imageUrl: bootstrap,
+    name: "Bootstrap",
+    type: "Frontend",
+  },
 ];
 
 export const experiences = [
@@ -91,10 +96,9 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "October 2018 - October 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Pursuing a Bachelor's degree in Economy and Informatics from the University of Tirana  allowed me to delve into an integrative curriculum that bridges the gap between economic theory and information technology. ",
+      "The program emphasized a broad spectrum of subjects, including Microeconomics, Macroeconomics, Statistics, Accounting, Finance, Data Science, Programming, and Software Engineering. ",
+      "This diverse education prepared me for a career that combines economics with technology, giving me the skills to tackle challenges in both fields."
     ],
   },
   {
@@ -158,8 +162,8 @@ export const projects = [
     theme: "btn-back-green",
     name: "Full Stack PokeFight game",
     description:
-      'Full Stack PokeFight game" is a  Pokémon battle game, offering players to choose their pokemon and fight a random one. Built with Node.js, Express.js, MongoDB, and React.js, it integrates backend and frontend technologies for a simple fight adventure.',
-    link: "https://github.com/xhenigega/Poke_Fight/tree/error/debug",
+      'Full Stack PokeFight game" is a  Pokémon battle game, offering players to choose their pokemon and fight a random one. Built with Node.js, Express.js, MongoDB, and React.js, it integrates backend and frontend technologies for a simple fight adventure. (branch-error/debug)',
+    link: "https://github.com/xhenigega/Poke_Fight/tree/main",
   },
   {
     iconUrl: cmscookbook,

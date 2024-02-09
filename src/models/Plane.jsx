@@ -9,7 +9,7 @@ const Plane = ({ isRotating, ...props }) => {
   const { scene } = useGLTF(planeScene);
 
   return (
-    <mesh {...props} ref={ref} position = {[-2.6, -2.5, 0]} scale={0.009}>
+    <mesh {...props} ref={ref} position = {[-1, -0.6, 1.5]} scale={0.004}>
       <primitive object={scene} />
     </mesh>
   );

@@ -23,16 +23,18 @@ export default function Birds ({ currentAnimation, ...props }) {
   // This effect will run whenever the currentAnimation prop changes
   useEffect(() => {
     Object.values(actions).forEach((action) => action.stop());
-
-    if (actions[currentAnimation]) {
-      actions[currentAnimation].play();
+  
+    if (actions['ArmatureAction.001']) { 
+      actions['ArmatureAction.001'].play();
     }
   }, [actions, currentAnimation]);
+  
+  
 
   return (
     <group ref={group} {...props} dispose={null}>
     <group name="Sketchfab_Scene">
-    <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
+    <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]} scale={0.7}>
       <group name="Root">
         <group name="Armature" position={[-1.849, -0.058, 0.175]}>
           <primitive object={nodes.Armature_rootJoint} />

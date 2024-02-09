@@ -152,16 +152,18 @@ body:has(.card[data-color="green"]:hover) {
   backdrop-filter: blur(20px);
   transition: 250ms;
   transform-style: preserve-3d;
-  transform-origin: top left;
+  transform-origin: center; /* Center the transformation to emphasize the 'coming forward' effect */
   overflow: hidden;
 }
 
+/* Remove the complex rotation and translation for a simpler 'coming forward' effect */
 .block-container:hover > .btn-back {
-  transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
+  transform: scale(1.05); /* Slightly scale up the background for a subtle depth effect */
 }
 
 .block-container:hover > .btn-front {
-  transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
+  transform: translateZ(60px) scale(1.1); /* Move forward and scale up to focus on the image */
+  transition: transform 250ms ease-out; /* Smooth transition for the effect */
 }
 
 /* Neo Brutalism */
@@ -180,3 +182,4 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 0.6vmin 0.6vmin #07454593, 1vmin 1vmin #00030317, 1vmin 1vmin #00030317,
     0.65vmin 1vmin #00030317, 1vmin 0.65vmin #00030317;
 }
+

@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 
 import { CTA } from "../components";
 import { projects } from "../constants";
-import { arrow } from "../assets/icons";
+import { arrowone } from "../assets/icons";
 
 const Projects = () => {
+
+
   return (
     <section className='max-container'>
       <h1 className='head-text'>
@@ -47,7 +49,7 @@ const Projects = () => {
                   Live Link
                 </Link>
                 <img
-                  src={arrow}
+                  src={arrowone}
                   alt='arrow'
                   className='w-4 h-4 object-contain'
                 />

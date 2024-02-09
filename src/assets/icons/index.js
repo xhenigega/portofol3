@@ -6,7 +6,7 @@ import html from "./html.svg";
 import sql from "./sql.svg";
 import javascript from "./javascript.svg";
 import mongodb from "./mongodb.svg";
-
+import bootstrap from "./bootstrap.svg";
 import nodejs from "./nodejs.svg";
 import react from "./react.svg";
 import intern from "./intern.svg";
@@ -18,7 +18,7 @@ import cmscookbook from "./cmscookbook.png";
 import cookbook from "./cookbook.png";
 import barknbath from "./barknbath.png";
 import todolist from "./todolist.png";
-
+import arrowone from "./arrowone.svg";
 import pokefight from "./pokefight.png";
 import arrow from "./arrow.svg";
 import contact from "./contact.svg";
@@ -34,6 +34,7 @@ export {
   html,
   javascript,
   mongodb,
+  bootstrap,
   sql,
   nodejs,
   react,
@@ -44,7 +45,7 @@ export {
   cookbook,
   barknbath,
   todolist,
- 
+  arrowone,
   pokefight,
   arrow,
   contact,
