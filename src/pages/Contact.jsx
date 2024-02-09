@@ -2,7 +2,7 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
 
-// import  Astroman  from "../models/Astroman";
+import Birds from '../models/Birds.jsx'
 import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
 
@@ -157,12 +157,12 @@ const Contact = () => {
           />
 
           <Suspense fallback={<Loader />}>
-            {/* <Astroman
+            <Birds
               currentAnimation={currentAnimation}
               position={[0.5, 0.35, 0]}
-              rotation={[12.629, -0.6, 0]}
+              rotation={[12, 2, 1]}
               scale={[0.5, 0.5, 0.5]}
-            /> */}
+            />
           </Suspense>
         </Canvas>
       </div>

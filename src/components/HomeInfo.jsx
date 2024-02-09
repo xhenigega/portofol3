@@ -10,7 +10,9 @@ const HomeInfo = ({ currentStage }) => {
         <span className="font-semibold mx-2 text-white">Xheni</span>
         👋
         <br />Junior Full Stack Developer with a Focus on Front-End
+        <br/>Lets explore around !
       </h1>
+      
     );
 
   if (currentStage === 2) {
