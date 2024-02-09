@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         Hi, I'm
         <span className="font-semibold mx-2 text-white">Xheni</span>
         👋
-        <br />A Junior Web Dev
+        <br />Junior Full Stack Developer with a Focus on Front-End
       </h1>
     );
 
@@ -17,8 +17,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Worked with many companies <br /> and picked up many skills along the
-          way
+        Newly minted in the tech scene,<br /> and  eager to apply fresh skills and start my journey in tech
         </p>
 
         <Link to="/about" className="neo-brutalism-white neo-btn">
@@ -33,8 +32,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium text-center sm:text-xl">
-          Led multiple projects to success over the years. <br /> Curious about
-          the impact?
+        Steered school projects to success,  <br /> ready to explore and make a real-world impact
         </p>
 
         <Link to="/projects" className="neo-brutalism-white neo-btn">
@@ -49,8 +47,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Need a project done or looking for a dev? <br /> I'm just a few
-          keystrokes away
+        On the hunt for my next adventure! 🌟<br />Let's connect —I'm eager to explore!
         </p>
 
         <Link to="/contact" className="neo-brutalism-white neo-btn">

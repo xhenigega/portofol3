@@ -46,7 +46,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .btn {
-    @apply text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+    @apply text-white bg-gradient-to-r from-[#33924b] to-[#ebc049] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
   }
 
   .header {
@@ -66,7 +66,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .neo-btn {
-    @apply py-3 px-6 rounded-lg text-blue-500 text-center font-semibold sm:w-1/2 w-[90%] -bottom-5 absolute mx-auto right-0 left-0 flex justify-center items-center gap-3;
+    @apply py-3 px-6 rounded-lg text-white text-center font-bold sm:w-1/2 w-[90%] -bottom-5 absolute mx-auto right-0 left-0 flex justify-center items-center gap-3;
   }
 
   .cta {
@@ -166,17 +166,17 @@ body:has(.card[data-color="green"]:hover) {
 
 /* Neo Brutalism */
 .neo-brutalism-blue {
-  background: #2b77e7;
+  background: #428d598b;
   position: relative;
   border-radius: 10px;
-  border: #2b77e7;
-  box-shadow: 0.6vmin 0.6vmin #336cc1, 1vmin 1vmin #0092db, 1vmin 1vmin #0092db,
-    0.65vmin 1vmin #0092db, 1vmin 0.65vmin #0092db;
+  border: #4e0b0b;
+  box-shadow: 0.6vmin 0.6vmin #92d3a68b, 1vmin 1vmin #3863458b, 1vmin 1vmin #3863458b,
+    0.65vmin 1vmin #3863458b, 1vmin 0.65vmin #3863458b;
 }
 
 .neo-brutalism-white {
-  background: #fff;
-  border: #fff;
-  box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
-    0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
+  background: #00030393;
+  border: #00030393;
+  box-shadow: 0.6vmin 0.6vmin #07454593, 1vmin 1vmin #00030317, 1vmin 1vmin #00030317,
+    0.65vmin 1vmin #00030317, 1vmin 0.65vmin #00030317;
 }
