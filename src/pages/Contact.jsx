@@ -79,62 +79,66 @@ const Contact = () => {
         <h1 className='head-text'>Get in Touch</h1>
 
         <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className='w-full flex flex-col gap-7 mt-14'
-        >
-          <label className='text-black-500 font-semibold'>
-            Name
-            <input
-              type='text'
-              name='name'
-              className='input'
-              placeholder='John'
-              required
-              value={form.name}
-              onChange={handleChange}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-            />
-          </label>
-          <label className='text-black-500 font-semibold'>
-            Email
-            <input
-              type='email'
-              name='email'
-              className='input'
-              placeholder='John@gmail.com'
-              required
-              value={form.email}
-              onChange={handleChange}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-            />
-          </label>
-          <label className='text-black-500 font-semibold'>
-            Your Message
-            <textarea
-              name='message'
-              rows='4'
-              className='textarea'
-              placeholder='Write your thoughts here...'
-              value={form.message}
-              onChange={handleChange}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-            />
-          </label>
+  ref={formRef}
+  onSubmit={handleSubmit}
+  className='w-full flex flex-col gap-7 mt-14'
+>
+  <label className='text-black-500 font-semibold'>
+    Name
+    <input
+      type='text'
+      name='name'
+      className='input'
+      placeholder='John'
+      required
+      value={form.name}
+      onChange={handleChange}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
+      autoComplete='name' // This line is added
+    />
+  </label>
+  <label className='text-black-500 font-semibold'>
+    Email
+    <input
+      type='email'
+      name='email'
+      className='input'
+      placeholder='John@gmail.com'
+      required
+      value={form.email}
+      onChange={handleChange}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
+      autoComplete='email' // This line is added
+    />
+  </label>
+  <label className='text-black-500 font-semibold'>
+    Your Message
+    <textarea
+      name='message'
+      rows='4'
+      className='textarea'
+      placeholder='Write your thoughts here...'
+      value={form.message}
+      onChange={handleChange}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
+      // Typically, autocomplete is not used for message fields, but if needed, you can set it to "off" or a specific valid value.
+    />
+  </label>
 
-          <button
-            type='submit'
-            disabled={loading}
-            className='btn'
-            onFocus={handleFocus}
-            onBlur={handleBlur}
-          >
-            {loading ? "Sending..." : "Submit"}
-          </button>
-        </form>
+  <button
+    type='submit'
+    disabled={loading}
+    className='btn'
+    onFocus={handleFocus}
+    onBlur={handleBlur}
+  >
+    {loading ? "Sending..." : "Submit"}
+  </button>
+</form>
+
       </div>
 
       <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
