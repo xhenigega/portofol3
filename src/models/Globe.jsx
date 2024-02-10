@@ -9,7 +9,7 @@ Title: Props - scifi globe
 import React, { useRef, useEffect, useState } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
-import globeScene from "../../dist/assets//globe-MyRvZufo.glb";
+import globeScene from "../assets/globe.glb";
 import { a } from "@react-spring/three";
 
 const Globe = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
